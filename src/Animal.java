@@ -3,15 +3,15 @@ public class Animal implements Countable{
 	private int count;
 	
 	public Animal() {
-		this.count=1;
+		count=1;
 	}
 	
 	public void incrementCount() {
-		this.count++;
+		count++;
 	}
 	
 	public void resetCount() {
-		this.count = 1;
+		count = 1;
 	}
 	
 	public String getCountString() {
