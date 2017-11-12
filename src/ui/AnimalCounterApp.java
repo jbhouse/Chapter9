@@ -41,14 +41,5 @@ public class AnimalCounterApp {
 			}
 		}
 	}
-	
-//	public static void count(Countable animal, int maxCount) {
-//		animal.resetCount();
-//		for (int i = 0; i < maxCount; i++) {
-//			System.out.println(animal.getCountString());
-//			animal.incrementCount();
-//		}
-//		System.out.println();
-//	}
 
 }

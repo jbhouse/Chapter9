@@ -45,8 +45,10 @@ public class AccountBalanceApp {
 	
 	public static String getTransactionType() {
 		String validChoices = "wd";
-		String userChoice = Console.getString("Withdrawal or deposit? (w/d) : ").toLowerCase();
-		while (!validChoices.contains(userChoice)) {}
+		String userChoice = "x";
+		while (!validChoices.contains(userChoice)) {
+			userChoice = Console.getString("Withdrawal or deposit? (w/d) : ").toLowerCase();
+		}
 		return userChoice;
 	}
 
